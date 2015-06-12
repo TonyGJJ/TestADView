@@ -14,6 +14,7 @@
 		EAA808861AE65C2200DF5342 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA808851AE65C2200DF5342 /* Images.xcassets */; };
 		EAA808891AE65C2200DF5342 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA808871AE65C2200DF5342 /* LaunchScreen.xib */; };
 		EAA808951AE65C2200DF5342 /* TestADViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA808941AE65C2200DF5342 /* TestADViewTests.m */; };
+		EAA808A01AE65C3A00DF5342 /* CSIIADView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA8089F1AE65C3A00DF5342 /* CSIIADView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EAA8088E1AE65C2200DF5342 /* TestADViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestADViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA808931AE65C2200DF5342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAA808941AE65C2200DF5342 /* TestADViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestADViewTests.m; sourceTree = "<group>"; };
+		EAA8089E1AE65C3A00DF5342 /* CSIIADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSIIADView.h; sourceTree = "<group>"; };
+		EAA8089F1AE65C3A00DF5342 /* CSIIADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSIIADView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		EAA8086C1AE65C2200DF5342 = {
 			isa = PBXGroup;
 			children = (
+				EAA8089E1AE65C3A00DF5342 /* CSIIADView.h */,
+				EAA8089F1AE65C3A00DF5342 /* CSIIADView.m */,
 				EAA808771AE65C2200DF5342 /* TestADView */,
 				EAA808911AE65C2200DF5342 /* TestADViewTests */,
 				EAA808761AE65C2200DF5342 /* Products */,
@@ -222,6 +227,7 @@
 				EAA808811AE65C2200DF5342 /* ViewController.m in Sources */,
 				EAA8087E1AE65C2200DF5342 /* AppDelegate.m in Sources */,
 				EAA8087B1AE65C2200DF5342 /* main.m in Sources */,
+				EAA808A01AE65C3A00DF5342 /* CSIIADView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

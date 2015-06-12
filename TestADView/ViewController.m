@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CSIIADView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)buttonAction:(UIButton *)sender {
+    CSIIADView *adView = [[CSIIADView alloc] initSubView];
+    [adView show];
 }
 
 - (void)didReceiveMemoryWarning {
